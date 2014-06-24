@@ -11,7 +11,8 @@ body {
         font-family: futura;
         margin: 0px;
         padding: 0px;
-        position: static;
+        position: absolute;
+        z-index: 100;
        
 }
 
@@ -41,13 +42,14 @@ li
     width: auto;
     display: inline-block;
     padding: 10px;
+    opacity: 1;
     
 }
 .nav
 a {
     color: white;
     text-decoration: none;
-    
+    opacity: 1;
 }
 
 .nav
@@ -61,14 +63,16 @@ a:hover
     min-height: 800px;
     width: 100%;
     min-width: 1500px;
-    background-color: lightgray;
-    position: relative;
+/*    background-color: lightgray;*/
+    position: absolute;
     margin-top: 0px;
     display: block;
-    background-image: url(images/background01.jpg);
+/*    background-image: url(images/background01.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
     font-family: futura;
+    z-index: 5;
+    
     
 }
 .page1
@@ -76,6 +80,9 @@ h1{
     color: white;
     letter-spacing: 5px;
     margin-left: 50px;
+    font-weight:  bolder;
+    font-size: 40px;
+    margin-top: 60px;
 }
 .page1
 p{ padding: 50px;
@@ -140,6 +147,7 @@ p{ padding: 50px;
    font-size: 25px;
    line-height: 40px;
    width: 1000px;
+   height: 500px;
    
    
 }
@@ -154,4 +162,58 @@ p
     padding: 0;
     margin: 0;
         
+}
+.css-slideshow{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 1500px;
+    z-index: 1;
+    
+        
+    
+    
+}
+.css-slideshow
+figure{
+    margin: 0;
+    position: absolute;
+    transition: opacity .5s;
+    opacity: 0;
+    
+}
+.css-slideshow
+img {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    
+        
+}
+figure:nth-child(1) {
+   animation: xfade 18s 12s infinite;
+}
+figure:nth-child(2) {
+   animation: xfade 18s 18s infinite;
+}
+figure:nth-child(3) {
+   animation: xfade 18s 0s infinite;
+}
+
+@keyframes xfade{
+   0%{
+      opacity: 1;
+   }
+   14.67% {
+      opacity:1;
+   }
+   16.67%{
+      opacity: 0;
+   }
+   98% {
+      opacity: 0;
+   }
+   100% {
+      opacity:1;
+   }
 }
