@@ -13,7 +13,7 @@ body {
         margin: 0px;
         padding: 0px;
         position: absolute;
-        z-index: 100;
+        z-index: 1000;
        
 }
 
@@ -291,16 +291,56 @@ figure {
     background-color: white;
     margin: 5px;
     margin-left: 50px;
+    z-index: 120;
+    position: relative;
+    
     
 }
 .inventory
-figure
-figcaption {
+.caption
+figure {
+    color: white;
+    background-color: transparent;
+    position: relative;
+    font-size: 30px;
     
     
-    transform: translateY(30px);
-    font-size: 20px;
+    
 }
+.inventory
+.caption {
+    height: 488px;
+}
+.inventory
+
+a:link {
+    color: white;
+   
+}
+.inventory
+a:hover {
+    
+    color: yellow;
+    font-style: oblique;
+    
+}
+
+.blackhover {
+    height: 488px;
+    position: absolute;
+}
+.blackhover
+figure
+{
+    background-color: black;
+    z-index: 100;
+    position: relative;
+    opacity: 0;
+   
+}
+
+
+
 
 
 /*------------FOUTH PAGE GALLERY----------------*/
