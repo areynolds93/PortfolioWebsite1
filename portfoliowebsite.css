@@ -275,8 +275,8 @@ p{ padding: 50px;
 }
 .inventory
 {
-/*    background-color: purple;*/
-    display: table;
+    
+    display: inline-table;
     height: 400px;
     width: 100%;
     min-width: 1200px;
@@ -287,57 +287,74 @@ figure {
     width: 300px;
     height: 300px;
     border: 20px solid white;
-    display: inline-block;
+    display: inline-table;
     background-color: white;
-    margin: 5px;
+    margin: 50px;
     margin-left: 50px;
-    z-index: 120;
-    position: relative;
-    
-    
+   
 }
-.inventory
-.caption
-figure {
-    color: white;
-    background-color: transparent;
-    position: relative;
-    font-size: 30px;
-    
-    
-    
+.text {
+    position: absolute;
+    z-index: 15;
 }
-.inventory
-.caption {
-    height: 488px;
+.images {
+    position: absolute;
+    z-index: 5;
 }
-.inventory
+.black {
+    position: absolute;
+    opacity: .0;
+    z-index: 10;
+}
 
+
+.black
+figure{
+    background-color: midnightblue;
+    
+    display: inline-block;
+     
+    
+}
+.text
+figure{
+    background-color: transparent;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    transform: translateY(100px);
+    border-color: transparent;
+     
+    
+    }
+    .images
+    figure {
+        
+         display: inline-block;
+    }
+
+
+.inventory
 a:link {
     color: white;
    
 }
-.inventory
+.text
+
 a:hover {
     
-    color: yellow;
+    color: gold;
     font-style: oblique;
     
 }
+.black
+a:hover  {
+    opacity: .5;
+}
 
-.blackhover {
-    height: 488px;
-    position: absolute;
-}
-.blackhover
-figure
-{
-    background-color: black;
-    z-index: 100;
-    position: relative;
-    opacity: 0;
-   
-}
+
+
+
 
 
 
