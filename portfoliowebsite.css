@@ -303,7 +303,7 @@ figure {
 }
 .black {
     position: absolute;
-    opacity: .0;
+    opacity: .2;
     z-index: 10;
 }
 
@@ -321,7 +321,7 @@ figure{
     background-color: transparent;
     font-size: 50px;
     text-align: center;
-    color: white;
+    
     transform: translateY(100px);
     border-color: transparent;
      
@@ -342,8 +342,8 @@ a:link {
 .text
 
 a:hover {
+    color: yellow;
     
-    color: gold;
     font-style: oblique;
     
 }
