@@ -296,6 +296,8 @@ figure {
 .text {
     position: absolute;
     z-index: 15;
+    letter-spacing: 2px;
+    
 }
 .images {
     position: absolute;
@@ -480,3 +482,86 @@ p{ padding: 50px;
 }
 
 /*------------6th PAGE CONTACT ME----------------*/
+/*------------7th PAGE 2014----------------*/
+.page7 {
+    height: 2000px;
+    
+    width: 100%;
+    min-width: 1300px;
+    position: absolute;
+    margin-top: 0px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: futura;
+    background-color: bisque;
+    
+}
+.page7
+h1{
+    color: darkcyan;
+    letter-spacing: 5px;
+    margin-left: 50px;
+    
+}
+.page7
+h2 {
+    margin-left: 50px;
+    color: darkcyan;
+    font-size: 50px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    
+}
+.page7
+p{ padding: 50px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: darkcyan;
+   font-size: 20px;
+   line-height: 30px;
+   width: 1000px;
+ 
+   
+}
+.copy
+{
+    margin-left: 50px;
+    font-style: oblique;
+    font-family: georgia;
+    padding: 0;
+    margin: 0; 
+}
+.gallery2014
+{
+    display: table;
+    
+    height: 500px;
+    width: 90%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.gallery2014
+figure 
+{
+    
+    
+}
+.gallery2014
+figure
+img{
+    max-height: 500px;
+    border: 20px solid white;
+}
+.gallerycaption
+{
+    float: right;
+    font-size: 30px;
+    height: 200px;
+    width: 500px;
+    transform: translateY(-400px);
+    position: absolute;
+    margin-left: 700px;
+}
+
+/*------------7th PAGE 2014----------------*/
