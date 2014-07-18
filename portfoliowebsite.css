@@ -1,12 +1,61 @@
+
+
+    
+    
+    
+    
+    
+    
+body {
+        margin-right: 0;
+        background-color: bisque;
+    }
+    .nav {
+        width: 100%;
+        height: auto;
+        font-family: futura;
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        z-index: 1000;
+    }
+    .nav
+    ul {
+    background-color: green;
+    opacity: 1;
+
+    text-align: center;
+    list-style-type: none;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    min-width: 600px;
+    padding: 2px;
+    position: fixed;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
     margin:0;
     
 }
 
+
 /*------------FIRST PAGE----------------*/
 .nav{
-/*	border: 2px solid black;*/
-/*	background-color: pink;*/
+
         width: 100%;
         height: auto;
         font-family: futura;
@@ -22,13 +71,13 @@ ul
 {
     background-color: black;
     opacity: 1;
-/*  border: 2px solid black;*/
+
     text-align: center;
     list-style-type: none;
     width: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
-    min-width: 500px;
+    min-width: 600px;
     padding: 2px;
     position: fixed;
     
@@ -278,8 +327,8 @@ p{ padding: 50px;
     
     display: inline-table;
     height: 400px;
-    width: 100%;
-    min-width: 1200px;
+    width: 1500px;
+    min-width: 1500px;
 }
 .inventory
 figure {
@@ -297,16 +346,18 @@ figure {
     position: absolute;
     z-index: 15;
     letter-spacing: 2px;
-    
+    width: 1500px;
 }
 .images {
     position: absolute;
     z-index: 5;
+    width: 1500px;
 }
 .black {
     position: absolute;
     opacity: .2;
     z-index: 10;
+    width: 1500px;
 }
 
 
@@ -353,6 +404,8 @@ a:hover {
 a:hover  {
     opacity: .5;
 }
+a:visited {
+    color: white;}
 
 
 
@@ -419,12 +472,29 @@ p{ padding: 50px;
 }
 .links
 figure {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 300px;
     background-color: teal;
-    border-radius: 360px;
-    display: inline-table;
+    border-radius: 30px;
+    
 
+}
+.links
+figure
+figcaption
+{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  
+}
+.links
+a{
+    text-decoration: none;
+}
+.links
+figcaption {
+    transform: translateY(25px)
 }
 /*------------5th PAGE LINKS----------------*/
 /*------------6th PAGE CONTACT ME----------------*/
@@ -552,16 +622,137 @@ figure
 img{
     max-height: 500px;
     border: 20px solid white;
+    margin-right: 20px;
 }
-.gallerycaption
-{
-    float: right;
-    font-size: 30px;
-    height: 200px;
-    width: 500px;
-    transform: translateY(-400px);
-    position: absolute;
-    margin-left: 700px;
+.gallery2014
+figcaption{
+    margin: 20px;
+    
 }
 
+
 /*------------7th PAGE 2014----------------*/
+/*------------8th PAGE 2013----------------*/
+.page8 {
+    height: 4000px;
+    
+    width: 100%;
+    min-width: 1300px;
+    position: absolute;
+    margin-top: 0px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: futura;
+    background-color: bisque;
+    
+}
+.page8
+h1{
+    color: darkcyan;
+    letter-spacing: 5px;
+    margin-left: 50px;
+    
+}
+.page8
+h2 {
+    margin-left: 50px;
+    color: darkcyan;
+    font-size: 50px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    
+}
+.page8
+p{ padding: 50px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: darkcyan;
+   font-size: 20px;
+   line-height: 30px;
+   width: 1000px;
+ 
+   
+}
+.copy
+{
+    margin-left: 50px;
+    font-style: oblique;
+    font-family: georgia;
+    padding: 0;
+    margin: 0; 
+}
+.gallery2013
+{
+    display: table;
+    
+    height: 500px;
+    width: 90%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.gallery2013
+figure
+img{
+    max-height: 500px;
+    border: 20px solid white;
+    margin-right: 20px;
+}
+.gallery2013
+figcaption{
+    margin: 20px;
+    
+}
+/*------------8th PAGE 2014----------------*/
+.page9 {
+    height: 4000px;
+    
+    width: 100%;
+    min-width: 1300px;
+    position: absolute;
+    margin-top: 0px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: futura;
+    background-color: bisque;
+    
+}
+.page9
+h1{
+    color: darkcyan;
+    letter-spacing: 5px;
+    margin-left: 50px;
+    
+}
+.page9
+h2 {
+    margin-left: 50px;
+    color: darkcyan;
+    font-size: 50px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    
+}
+.page9
+p{ padding: 50px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: darkcyan;
+   font-size: 20px;
+   line-height: 30px;
+   width: 1000px;
+ 
+   
+}
+.copy
+{
+    margin-left: 50px;
+    font-style: oblique;
+    font-family: georgia;
+    padding: 0;
+    margin: 0; 
+}
+
+
+    
